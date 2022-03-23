@@ -2,13 +2,7 @@
 micronaut:
   application:
     name: cinema-application
-
----
-datasources.default: {}
----
-micronaut:
-  metrics:
-    enabled: true
+--
 
 ---
 datasources:
@@ -18,27 +12,9 @@ datasources:
     username: cinema
     password: 'gjitkYF[eq'
     dialect: org.hibernate.dialect.PostgreSQL10Dialect
-jpa:
-  default:
-    properties:
-      hibernate:
-        physical_naming_strategy: "io.micronaut.data.hibernate.naming.DefaultPhysicalNamingStrategy"
-        hbm2ddl:
-          auto: validate
+
 liquibase:
   datasources:
     enabled: false
     default:
       change-log: 'classpath:changelogs/changelog.xml'
-
-micronaut:
-  router:
-    static-resources:
-      swagger:
-        paths:
-          - classpath:META-INF/swagger
-        mapping: /swagger/**
-      swagger-ui:
-        paths:
-          - classpath:META-INF/swagger/views/swagger-ui
-        mapping: /swagger-ui/**

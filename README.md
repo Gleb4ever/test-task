@@ -12,7 +12,6 @@
 
 Требования к компоненту находятся в документе [Requirements](https://github.com/Petrovvich/test-task/blob/master/docs/Requirements.md).
 
-
 ### API
 
 Компонент предоставляет следуюшие методы API:

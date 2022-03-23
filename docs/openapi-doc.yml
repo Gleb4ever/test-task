@@ -3,9 +3,9 @@ info:
   title: Cinema application
   description: Application for reserve seats in cinema
   contact:
-    name: Alexander Romanyuk
-    url: https://github.com/Petrovvich
-    email: alexromantrue@gmail.com
+    name: Gleb Chernyavskiy
+    url: https://github.com/gleb4ever
+    email: cherglebas@mail.com
   version: "0.1"
 paths:
   /seats/{hallId}:
